@@ -51,6 +51,12 @@ header {
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
   footer {
     display: flex;
     justify-content: space-between;
@@ -108,6 +114,9 @@ header {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
@@ -124,6 +133,11 @@ header {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
+  background-color: rgba(225, 225, 225, 0.75);
+}
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 .hero-form label {
   margin: 0 5px;
@@ -155,6 +169,7 @@ header {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -163,7 +178,6 @@ header {
   .step:last-child {
     border-bottom: none;
   }
-  
   .step h3 {
     color: #024e76;
     font-size: 46px;
@@ -302,7 +316,6 @@ header {
   margin-top: 5px;
   border-radius: 10px;
   background-color: rgba(225, 225, 225, 0.75);
-  border-radius: 10px;
 }
 .contact-form input:focus, .contact-form textarea:focus {
   background-color: rgba(255,255,255, 1);
