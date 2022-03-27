@@ -90,7 +90,8 @@ header {
 .hero {
     background-image: url("./hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
